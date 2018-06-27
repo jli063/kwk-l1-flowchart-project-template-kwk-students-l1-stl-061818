@@ -6,6 +6,8 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/results' do
-    
+    erb :results
+  end
+  
 
 end
