@@ -5,6 +5,7 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
   
+  
   get '/results' do
     erb html :results
   end
