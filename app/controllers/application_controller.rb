@@ -7,7 +7,7 @@ class ApplicationController < Sinatra::Base
   
   
   get '/results' do
-    erb html :results
+    erb :results
   end
   
 
